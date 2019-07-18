@@ -24,10 +24,10 @@
 		8BA53C1E22E1020400EF455D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BA53C2022E1020600EF455D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BA53C2322E1020600EF455D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8BA53C2522E1020600EF455D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BA53C2C22E1021E00EF455D /* Product.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Product.xcdatamodel; sourceTree = "<group>"; };
 		8BA53C2E22E1024700EF455D /* Product.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Product.plist; sourceTree = "<group>"; };
 		8BA53C3022E1028F00EF455D /* CoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
+		8BA53C3B22E1050000EF455D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +61,7 @@
 		8BA53C1822E1020400EF455D /* ViperStore */ = {
 			isa = PBXGroup;
 			children = (
+				8BA53C3B22E1050000EF455D /* Info.plist */,
 				8BA53C3322E103C600EF455D /* Classes */,
 				8BA53C3222E103C600EF455D /* Resources */,
 			);
@@ -73,7 +74,6 @@
 				8BA53C1D22E1020400EF455D /* Main.storyboard */,
 				8BA53C2022E1020600EF455D /* Assets.xcassets */,
 				8BA53C2222E1020600EF455D /* LaunchScreen.storyboard */,
-				8BA53C2522E1020600EF455D /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
