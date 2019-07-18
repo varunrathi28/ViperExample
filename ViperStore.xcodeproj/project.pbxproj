@@ -61,16 +61,72 @@
 		8BA53C1822E1020400EF455D /* ViperStore */ = {
 			isa = PBXGroup;
 			children = (
-				8BA53C1922E1020400EF455D /* AppDelegate.swift */,
-				8BA53C1B22E1020400EF455D /* ViewController.swift */,
+				8BA53C3322E103C600EF455D /* Classes */,
+				8BA53C3222E103C600EF455D /* Resources */,
+			);
+			path = ViperStore;
+			sourceTree = "<group>";
+		};
+		8BA53C3222E103C600EF455D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				8BA53C1D22E1020400EF455D /* Main.storyboard */,
 				8BA53C2022E1020600EF455D /* Assets.xcassets */,
 				8BA53C2222E1020600EF455D /* LaunchScreen.storyboard */,
 				8BA53C2522E1020600EF455D /* Info.plist */,
-				8BA53C2B22E1021E00EF455D /* Product.xcdatamodeld */,
-				8BA53C3022E1028F00EF455D /* CoreDataStore.swift */,
 			);
-			path = ViperStore;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8BA53C3322E103C600EF455D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8BA53C1922E1020400EF455D /* AppDelegate.swift */,
+				8BA53C1B22E1020400EF455D /* ViewController.swift */,
+				8BA53C3422E103C600EF455D /* Common */,
+				8BA53C3522E103C600EF455D /* Data Store */,
+				8BA53C3622E103C600EF455D /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8BA53C3422E103C600EF455D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8BA53C3522E103C600EF455D /* Data Store */ = {
+			isa = PBXGroup;
+			children = (
+				8BA53C3022E1028F00EF455D /* CoreDataStore.swift */,
+				8BA53C2B22E1021E00EF455D /* Product.xcdatamodeld */,
+			);
+			path = "Data Store";
+			sourceTree = "<group>";
+		};
+		8BA53C3622E103C600EF455D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8BA53C3722E103C600EF455D /* Detail */,
+				8BA53C3822E103C600EF455D /* List */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8BA53C3722E103C600EF455D /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		8BA53C3822E103C600EF455D /* List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
