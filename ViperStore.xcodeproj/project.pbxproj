@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B3CA1EB22E2243200EF5D2A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CA1EA22E2243200EF5D2A /* ListViewController.swift */; };
+		8B3CA1ED22E2244A00EF5D2A /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CA1EC22E2244A00EF5D2A /* ListPresenter.swift */; };
+		8B3CA1EF22E2246800EF5D2A /* ListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CA1EE22E2246800EF5D2A /* ListWireFrame.swift */; };
 		8BA53C1A22E1020400EF455D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA53C1922E1020400EF455D /* AppDelegate.swift */; };
 		8BA53C1C22E1020400EF455D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA53C1B22E1020400EF455D /* ViewController.swift */; };
 		8BA53C1F22E1020400EF455D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA53C1D22E1020400EF455D /* Main.storyboard */; };
@@ -15,9 +18,14 @@
 		8BA53C2D22E1021E00EF455D /* Product.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BA53C2B22E1021E00EF455D /* Product.xcdatamodeld */; };
 		8BA53C2F22E1024700EF455D /* Product.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BA53C2E22E1024700EF455D /* Product.plist */; };
 		8BA53C3122E1028F00EF455D /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA53C3022E1028F00EF455D /* CoreDataStore.swift */; };
+		F751300EC69FF14129283261 /* Pods_ViperStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17AD1496E78B97939D527B3 /* Pods_ViperStore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		755624462781CFD85EC07A3A /* Pods-ViperStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperStore/Pods-ViperStore.debug.xcconfig"; sourceTree = "<group>"; };
+		8B3CA1EA22E2243200EF5D2A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		8B3CA1EC22E2244A00EF5D2A /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		8B3CA1EE22E2246800EF5D2A /* ListWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWireFrame.swift; sourceTree = "<group>"; };
 		8BA53C1622E1020400EF455D /* ViperStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA53C1922E1020400EF455D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BA53C1B22E1020400EF455D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +36,8 @@
 		8BA53C2E22E1024700EF455D /* Product.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Product.plist; sourceTree = "<group>"; };
 		8BA53C3022E1028F00EF455D /* CoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
 		8BA53C3B22E1050000EF455D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B17AD1496E78B97939D527B3 /* Pods_ViperStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD30B2B64E36B65B6B92A82 /* Pods-ViperStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperStore/Pods-ViperStore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,18 +45,149 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F751300EC69FF14129283261 /* Pods_ViperStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EEC05228A8945172BAD5F48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B17AD1496E78B97939D527B3 /* Pods_ViperStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71BDDB98AB7C59F1EF83DCBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				755624462781CFD85EC07A3A /* Pods-ViperStore.debug.xcconfig */,
+				FDD30B2B64E36B65B6B92A82 /* Pods-ViperStore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B3CA1DC22E221AF00EF5D2A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CA1DD22E221AF00EF5D2A /* Presenter */,
+				8B3CA1DE22E221AF00EF5D2A /* WireFrame */,
+				8B3CA1DF22E221AF00EF5D2A /* View */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8B3CA1DD22E221AF00EF5D2A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8B3CA1DE22E221AF00EF5D2A /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CA1EE22E2246800EF5D2A /* ListWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		8B3CA1DF22E221AF00EF5D2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CA1EA22E2243200EF5D2A /* ListViewController.swift */,
+				8B3CA1EC22E2244A00EF5D2A /* ListPresenter.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B3CA1E022E221AF00EF5D2A /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CA1E122E221AF00EF5D2A /* Manager */,
+				8B3CA1E222E221AF00EF5D2A /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		8B3CA1E122E221AF00EF5D2A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8B3CA1E222E221AF00EF5D2A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8B3CA1E322E223F400EF5D2A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CA1E422E223F400EF5D2A /* Presenter */,
+				8B3CA1E522E223F400EF5D2A /* WireFrame */,
+				8B3CA1E622E223F400EF5D2A /* View */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8B3CA1E422E223F400EF5D2A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8B3CA1E522E223F400EF5D2A /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		8B3CA1E622E223F400EF5D2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B3CA1E722E223F400EF5D2A /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CA1E822E223F400EF5D2A /* Manager */,
+				8B3CA1E922E223F400EF5D2A /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		8B3CA1E822E223F400EF5D2A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8B3CA1E922E223F400EF5D2A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		8BA53C0D22E1020400EF455D = {
 			isa = PBXGroup;
 			children = (
 				8BA53C2E22E1024700EF455D /* Product.plist */,
 				8BA53C1822E1020400EF455D /* ViperStore */,
 				8BA53C1722E1020400EF455D /* Products */,
+				71BDDB98AB7C59F1EF83DCBD /* Pods */,
+				4EEC05228A8945172BAD5F48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +259,8 @@
 		8BA53C3722E103C600EF455D /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				8B3CA1E722E223F400EF5D2A /* Application Logic */,
+				8B3CA1E322E223F400EF5D2A /* UI */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -125,6 +268,8 @@
 		8BA53C3822E103C600EF455D /* List */ = {
 			isa = PBXGroup;
 			children = (
+				8B3CA1E022E221AF00EF5D2A /* Application Logic */,
+				8B3CA1DC22E221AF00EF5D2A /* UI */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -136,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BA53C2822E1020600EF455D /* Build configuration list for PBXNativeTarget "ViperStore" */;
 			buildPhases = (
+				19E61D7F6CCB7789519B59C2 /* [CP] Check Pods Manifest.lock */,
 				8BA53C1222E1020400EF455D /* Sources */,
 				8BA53C1322E1020400EF455D /* Frameworks */,
 				8BA53C1422E1020400EF455D /* Resources */,
+				B52DCBC954B34829AD81CC6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +343,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19E61D7F6CCB7789519B59C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViperStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B52DCBC954B34829AD81CC6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ViperStore/Pods-ViperStore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperStore/Pods-ViperStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BA53C1222E1020400EF455D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -204,6 +402,9 @@
 				8BA53C1C22E1020400EF455D /* ViewController.swift in Sources */,
 				8BA53C2D22E1021E00EF455D /* Product.xcdatamodeld in Sources */,
 				8BA53C3122E1028F00EF455D /* CoreDataStore.swift in Sources */,
+				8B3CA1EB22E2243200EF5D2A /* ListViewController.swift in Sources */,
+				8B3CA1EF22E2246800EF5D2A /* ListWireFrame.swift in Sources */,
+				8B3CA1ED22E2244A00EF5D2A /* ListPresenter.swift in Sources */,
 				8BA53C1A22E1020400EF455D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +549,7 @@
 		};
 		8BA53C2922E1020600EF455D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755624462781CFD85EC07A3A /* Pods-ViperStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -365,6 +567,7 @@
 		};
 		8BA53C2A22E1020600EF455D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD30B2B64E36B65B6B92A82 /* Pods-ViperStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
