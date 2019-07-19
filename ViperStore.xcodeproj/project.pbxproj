@@ -10,6 +10,10 @@
 		8B3CA1EB22E2243200EF5D2A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CA1EA22E2243200EF5D2A /* ListViewController.swift */; };
 		8B3CA1ED22E2244A00EF5D2A /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CA1EC22E2244A00EF5D2A /* ListPresenter.swift */; };
 		8B3CA1EF22E2246800EF5D2A /* ListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CA1EE22E2246800EF5D2A /* ListWireFrame.swift */; };
+		8B3CA1F122E224BB00EF5D2A /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CA1F022E224BB00EF5D2A /* ListInteractor.swift */; };
+		8B3CA1F322E224D300EF5D2A /* ListDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CA1F222E224D300EF5D2A /* ListDataManager.swift */; };
+		8B3CA1F622E2252000EF5D2A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CA1F522E2252000EF5D2A /* Constants.swift */; };
+		8B3CA1FA22E225E800EF5D2A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CA1F922E225E800EF5D2A /* Model.swift */; };
 		8BA53C1A22E1020400EF455D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA53C1922E1020400EF455D /* AppDelegate.swift */; };
 		8BA53C1C22E1020400EF455D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA53C1B22E1020400EF455D /* ViewController.swift */; };
 		8BA53C1F22E1020400EF455D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA53C1D22E1020400EF455D /* Main.storyboard */; };
@@ -26,6 +30,10 @@
 		8B3CA1EA22E2243200EF5D2A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		8B3CA1EC22E2244A00EF5D2A /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
 		8B3CA1EE22E2246800EF5D2A /* ListWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWireFrame.swift; sourceTree = "<group>"; };
+		8B3CA1F022E224BB00EF5D2A /* ListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		8B3CA1F222E224D300EF5D2A /* ListDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDataManager.swift; sourceTree = "<group>"; };
+		8B3CA1F522E2252000EF5D2A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8B3CA1F922E225E800EF5D2A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8BA53C1622E1020400EF455D /* ViperStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA53C1922E1020400EF455D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BA53C1B22E1020400EF455D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +123,7 @@
 		8B3CA1E122E221AF00EF5D2A /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				8B3CA1F222E224D300EF5D2A /* ListDataManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -122,6 +131,7 @@
 		8B3CA1E222E221AF00EF5D2A /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				8B3CA1F022E224BB00EF5D2A /* ListInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -180,6 +190,22 @@
 			path = Interactor;
 			sourceTree = "<group>";
 		};
+		8B3CA1F422E2250500EF5D2A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CA1F522E2252000EF5D2A /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8B3CA1F822E225DF00EF5D2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CA1F922E225E800EF5D2A /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8BA53C0D22E1020400EF455D = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +260,8 @@
 		8BA53C3422E103C600EF455D /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				8B3CA1F822E225DF00EF5D2A /* Models */,
+				8B3CA1F422E2250500EF5D2A /* Constants */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -400,11 +428,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BA53C1C22E1020400EF455D /* ViewController.swift in Sources */,
+				8B3CA1F322E224D300EF5D2A /* ListDataManager.swift in Sources */,
 				8BA53C2D22E1021E00EF455D /* Product.xcdatamodeld in Sources */,
 				8BA53C3122E1028F00EF455D /* CoreDataStore.swift in Sources */,
 				8B3CA1EB22E2243200EF5D2A /* ListViewController.swift in Sources */,
+				8B3CA1F622E2252000EF5D2A /* Constants.swift in Sources */,
 				8B3CA1EF22E2246800EF5D2A /* ListWireFrame.swift in Sources */,
 				8B3CA1ED22E2244A00EF5D2A /* ListPresenter.swift in Sources */,
+				8B3CA1FA22E225E800EF5D2A /* Model.swift in Sources */,
+				8B3CA1F122E224BB00EF5D2A /* ListInteractor.swift in Sources */,
 				8BA53C1A22E1020400EF455D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
