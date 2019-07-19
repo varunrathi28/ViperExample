@@ -20,7 +20,7 @@ class ListDataManager {
     }
     
     func getStoreProductsDataFromPlist()->[StoreProduct]? {
-        if let fileUrl = Bundle.main.url(forResource: "Products", withExtension: "plist"),
+        if let fileUrl = Bundle.main.url(forResource: "Product", withExtension: "plist"),
             let data = try? Data(contentsOf: fileUrl) {
             if let result = try? PropertyListSerialization.propertyList(from: data, options: [], format: nil) as? [String: Any] {
                 if let dict = result, let array = (dict["Products"] as? [Any])  {
